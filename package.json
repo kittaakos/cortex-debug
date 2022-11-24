@@ -3034,9 +3034,10 @@
         "url": "https://github.com/Marus/cortex-debug.git"
     },
     "scripts": {
-        "vscode:prepublish": "webpack --mode production",
+        "vscode:prepublish": "webpack --mode development",
         "watch": "webpack --mode development --watch",
         "compile": "webpack --mode development",
-        "test-compile": "tsc -p ./"
+        "test-compile": "tsc -p ./",
+        "package": "npm i --no-save vsce && vsce package -o ./marus25.cortex-debug-1.5.1-development.vsix"
     }
 }

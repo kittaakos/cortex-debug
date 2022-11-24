@@ -2,6 +2,7 @@ out
 /node_modules
 /webview/node_modules
 *.vsix
+!marus25.cortex-debug-1.5.1*
 .vscode-test
 .DS_Store
 .sass-cache
